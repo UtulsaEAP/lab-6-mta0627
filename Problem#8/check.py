@@ -1,6 +1,7 @@
 def in_order(nums):
     # Type your code here.
-    
+    pass
+
 if __name__ == '__main__':
     # Test out-of-order example
     nums1 = [5, 6, 7, 8, 3]

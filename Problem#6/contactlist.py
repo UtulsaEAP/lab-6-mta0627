@@ -1,9 +1,9 @@
 def process_user_contacts(user_input):
-    user_contacts = 
+    user_contacts = 0
 
  
-    user_input = 
-    tokens = 
+    user_input = 0
+    tokens = 0
 
     # Put word pairs into a dictionary
     

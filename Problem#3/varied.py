@@ -5,8 +5,8 @@ def process_input(input_string):
     
 
     # Get max and average
-    max_value = 
-    average_value = 
+    max_value = 0
+    average_value = 0
     return max_value, average_value
 
 if __name__ == "__main__":

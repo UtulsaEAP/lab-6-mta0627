@@ -5,15 +5,21 @@ def process_input(input_string):
 
     # Convert strings to floats
     data_set = []
-    max_value = 0
+    total_value = 0
     for string in iter(string_data_set):
-
-        data_set.append(float(string))
-        max_value += float(string)
+        
+        num = float(string)
+        data_set.append(num)
+        total_value += num
+        
+        if total_value == num:
+            max_value = num
+        elif max_value < num:
+            max_value = num
     
     # Get max and average
     
-    average_value = max_value / len(data_set)
+    average_value = total_value / len(data_set)
     return max_value, average_value
 
 if __name__ == "__main__":

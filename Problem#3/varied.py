@@ -1,12 +1,19 @@
 def process_input(input_string):
-      # Split into separate strings
+    # Split into separate strings
+    
+    string_data_set = input_string.split()
 
     # Convert strings to floats
-    
-
-    # Get max and average
+    data_set = []
     max_value = 0
-    average_value = 0
+    for string in iter(string_data_set):
+
+        data_set.append(float(string))
+        max_value += float(string)
+    
+    # Get max and average
+    
+    average_value = max_value / len(data_set)
     return max_value, average_value
 
 if __name__ == "__main__":

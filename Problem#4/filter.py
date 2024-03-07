@@ -26,7 +26,7 @@ def process_and_print(input_string):
 
         output += string + ' '
     
-    print(output)
+    print(output , end='')
     
 
 if __name__ == "__main__":

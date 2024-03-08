@@ -5,7 +5,7 @@ def filter_and_print_range(input_list, min_val, max_val):
         
         num = int(string)
         
-        if min_val >= num and num >= max_val:
+        if min_val <= num and num <= max_val:
             output += str(num) + ','
 
     print (output , end='')

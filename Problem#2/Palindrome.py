@@ -1,3 +1,8 @@
+'''
+Name: Mason Anderson
+Time: 3/8/24 4:39 PM
+'''
+
 def check_palindrome(user_input):
  #type your code here
     string = user_input.replace(' ','')

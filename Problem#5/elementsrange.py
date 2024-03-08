@@ -1,3 +1,8 @@
+'''
+Name: Mason Anderson
+Time: 3/8/24 4:39 PM
+'''
+
 def filter_and_print_range(input_list, min_val, max_val):
     #write your code here
     output = ''

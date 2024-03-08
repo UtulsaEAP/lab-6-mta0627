@@ -1,3 +1,8 @@
+'''
+Name: Mason Anderson
+Time: 3/8/24 4:39 PM
+'''
+
 def process_user_contacts(user_contacts):
 
     # Put word pairs into a dictionary

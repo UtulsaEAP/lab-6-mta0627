@@ -1,6 +1,13 @@
 def in_order(nums):
     # Type your code here.
-    pass
+
+    sorted_nums = nums.copy() 
+    sorted_nums.sort()
+    
+    if nums == sorted_nums:
+        return True
+    else:
+        return False
 
 if __name__ == '__main__':
     # Test out-of-order example
